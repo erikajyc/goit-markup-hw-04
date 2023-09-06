@@ -390,6 +390,7 @@ h2 {
     width: 40px;
     height: 40px;
     align-items: center;
+    margin-top: 16px;
 }
 
 .team-icon-link svg {
@@ -450,3 +451,11 @@ h2 {
     padding: -16px -32px;
     margin-left: 24px;
 }
+
+
+.footer-title-icons {
+    margin: -110px 804px 188px 540px;
+    width: 96px;
+    height: 24px;
+}
+
