@@ -47,6 +47,7 @@ a {
 .services {
     padding-top: 0px;
 }
+
 .header-nav {
     display: flex;
     gap: 76px;
@@ -407,9 +408,9 @@ h2 {
 }
 
 .customer-svg {
-    /*width: 168px;
-    height: 88px;
-    border: 1px solid var(--lightslate);
+    width: 94px;
+    height: 56px;
+    /*border: 1px solid var(--lightslate);
     border-radius: 4px;
     margin-left: 24px;*/
 }
@@ -434,6 +435,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
 
 .customer-list-item {
@@ -442,12 +444,26 @@ h2 {
     padding: 16px 32px;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
-    margin-left: 24px;
 }
 
-.footer-title-icons {
-    margin: -110px 804px 188px 540px;
-    width: 96px;
-    height: 24px;
+.footer-container {
+    display: flex;
+    gap: 120px;
 }
 
+.team-icons-link::before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    color: var(cloud);
+}
+
+.team-icons-link:hover::before,
+.team-icons-link:focus::before {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: var(--green);
+    color: var(--cloud);
+}
