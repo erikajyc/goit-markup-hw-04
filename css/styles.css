@@ -446,26 +446,28 @@ h2 {
     border-radius: 4px;
 }
 
+.customer-list-item:hover .customer-list-item-link {
+    color: var(--ocean);
+    border-color: var(--ocean);
+}
+
+.customer-list-item-link {
+    color: var(--light-slate);
+}
+
+.customer-svg {
+    width: 94px;
+    height: 56px;
+    fill: currentColor;
+}
+
 .footer-container {
     display: flex;
     gap: 120px;
 }
 
-.team-icons-link::before{
-    content: '';
-    width: 40px;
-    height: 40px;
-    background-color: var(--iris);
-    color: var(cloud);
-}
-
-.team-icons-link:hover::before,
-.team-icons-link:focus::before {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
+.team-icons-link:hover {
     background-color: var(--green);
-    color: var(--cloud);
 }
 
 .nav-list-item {
