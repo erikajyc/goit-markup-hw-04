@@ -467,3 +467,27 @@ h2 {
     background-color: var(--green);
     color: var(--cloud);
 }
+
+.nav-list-item {
+    position: relative;
+}
+
+.nav-list-item:hover .header-nav-links::after {
+    width: 100%;
+    color: var(--ocean);
+}
+
+.header-nav-links::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: var(--ocean);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
+
+.teamicon-item {
+        
+}
