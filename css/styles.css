@@ -466,7 +466,7 @@ h2 {
     gap: 120px;
 }
 
-.team-icons-link:hover {
+.team-icon-item:hover {
     background-color: var(--green);
 }
 
