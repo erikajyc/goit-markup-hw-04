@@ -45,7 +45,7 @@ a {
 }
 
 .services {
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .header-nav {
@@ -116,7 +116,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/people-office.jpg');
+    background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/people-office-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,9 +207,7 @@ h2 {
 }
 
 .address-link:focus,
-.address-link:hover,
-.header-nav-links:focus,
-.header-nav-links:hover {
+.address-link:hover {
     color: var(--ocean);
 }
 
@@ -357,13 +355,15 @@ h2 {
     border-top: unset;
 }
 
+.card-content:hover,
+.card-content:focus {
+    cursor: pointer;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .footer {
     padding: 101.5px 0px;
 }
 
-.card-content {
-    padding: 32px 16px;
-}
 
 .features-image {
     background-color: var(--cloud);
@@ -446,9 +446,13 @@ h2 {
     border-radius: 4px;
 }
 
+.customer-list-item:hover {
+    border-color: var(--ocean);
+}
+
 .customer-list-item:hover .customer-list-item-link {
     color: var(--ocean);
-    border-color: var(--ocean);
+
 }
 
 .customer-list-item-link {
@@ -467,6 +471,10 @@ h2 {
 }
 
 .team-icon-item:hover {
+    background-color: var(--ocean);
+}
+
+.team-icon-item-footer:hover {
     background-color: var(--green);
 }
 
@@ -476,6 +484,11 @@ h2 {
 
 .nav-list-item:hover .header-nav-links::after {
     width: 100%;
+    color: var(--ocean);
+}
+
+.nav-list-item:hover .header-nav-links,
+.nav-list-item:focus .header-nav-links {
     color: var(--ocean);
 }
 
