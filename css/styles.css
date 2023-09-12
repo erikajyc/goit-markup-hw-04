@@ -146,7 +146,6 @@ h2 {
 .footer {
     color: var(--white);
     background-color: var(--navyblue);
-    height: 312px;
     flex-shrink: 0;
 }
 
@@ -214,7 +213,7 @@ h2 {
 .filters-button:focus,
 .filters-button:hover {
     color: var(--white);
-    background-color: var(--iris);
+    background-color: var(--ocean);
     border-color: var(--ocean);
 }
 
@@ -280,6 +279,11 @@ h2 {
     padding: 12px 24px;
 }
 
+.filters {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
 .hero-button {
     color: var(--white);
     background-color: var(--iris);
@@ -316,13 +320,8 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding-top: 96px;
-    padding-bottom: 72px;
 }
 
-.apps-container {
-    padding-bottom: 120px;
-}
 
 .apps-list {
     display: flex;
@@ -332,6 +331,9 @@ h2 {
     justify-content: center;
 }
 
+.apps {
+    padding-bottom: 120px;
+}
 
 .app-name {
     color: var(--navyblue);
@@ -364,6 +366,10 @@ h2 {
     padding: 101.5px 0px;
 }
 
+.social-media {
+    display: block;
+}
+
 
 .features-image {
     background-color: var(--cloud);
@@ -388,7 +394,6 @@ h2 {
 .team-icon-link {
     display: flex;
     column-gap: 24px;
-    width: 40px;
     height: 40px;
     align-items: center;
     margin-top: 16px;
@@ -501,8 +506,4 @@ h2 {
     position: absolute;
     left: 0;
     bottom: -25px;
-}
-
-.teamicon-item {
-        
 }
